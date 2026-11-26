@@ -1,0 +1,31 @@
+.Cabecalho {
+  background-color: #cccf11;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.Marca {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.Menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.ItemMenu {
+  color: #d8f3dc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.ItemMenu:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}

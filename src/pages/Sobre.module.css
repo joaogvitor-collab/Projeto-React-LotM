@@ -1,0 +1,60 @@
+.PaginaSobre {
+  max-width: 860px;
+  margin: 3.5rem auto;
+  padding: 2.5rem 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.TituloSobre {
+  font-size: 1.9rem;
+  color: #1b4332;
+  margin-bottom: 1.5rem;
+}
+
+.PerfilAutor {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.FotoAutor {
+  width: 180px;
+  min-width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.HistoriaBloco {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.SubtituloAutor {
+  font-size: 1.25rem;
+  color: #102a43;
+}
+
+.TextoSobre {
+  color: #334e68;
+  font-size: 1rem;
+}
+
+@media (max-width: 640px) {
+  .PerfilAutor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .FotoAutor {
+    width: 100%;
+    max-width: 240px;
+    height: 240px;
+  }
+}
+#rooot{
+  min-height: 100vh;
+}
